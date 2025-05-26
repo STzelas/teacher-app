@@ -1,4 +1,4 @@
-package gr.aueb.cf.teacher.app;
+package gr.aueb.cf.teacher.teacherapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

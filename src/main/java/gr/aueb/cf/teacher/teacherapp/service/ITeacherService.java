@@ -8,7 +8,7 @@ import gr.aueb.cf.teacher.teacherapp.model.Teacher;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 
-@Service
+
 public interface ITeacherService {
 
     Teacher saveTeacher(TeacherInsertDTO dto)

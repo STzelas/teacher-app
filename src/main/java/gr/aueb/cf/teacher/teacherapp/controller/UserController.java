@@ -13,6 +13,7 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
@@ -36,6 +37,7 @@ public class UserController {
     // Binding result για καταγραφή errors αυτόματα (αντιστοιχεί αυτόματα στο #fields)
     // Model (του spring) για να στείλουμε πίσω πληροφορία
     // RedirectAttributes γιατί θα κάνουμε redirect
+    @PostMapping("/users/register")
     public String insertUser(@Valid @ModelAttribute("userInsertDTO")UserInsertDTO userInsertDTO,
                              BindingResult bindingResult,
                              Model model,

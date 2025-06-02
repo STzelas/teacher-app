@@ -35,3 +35,7 @@ out/
 
 ### VS Code ###
 .vscode/
+/logs/all.log
+/logs/error.log
+/logs/hikari.log
+/logs/tomcat.log

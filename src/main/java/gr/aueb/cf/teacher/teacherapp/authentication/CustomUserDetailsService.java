@@ -1,7 +1,6 @@
 package gr.aueb.cf.teacher.teacherapp.authentication;
 
 import gr.aueb.cf.teacher.teacherapp.repository.UserRepository;
-import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
